@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: oder
-          image: user16.azurecr.io/oder:8080:latest
+          image: user16.azurecr.io/oder:latest
           ports:
             - containerPort: 8080
           readinessProbe:
@@ -58,7 +58,7 @@ spec:
     spec:
       containers:
         - name: delivery
-          image: user16.azurecr.io/delivery:8080:latest
+          image: user16.azurecr.io/delivery:latest
           ports:
             - containerPort: 8080
           readinessProbe:
@@ -98,7 +98,7 @@ spec:
     spec:
       containers:
         - name: product
-          image: user16.azurecr.io/product:8080:latest
+          image: user16.azurecr.io/product:latest
           ports:
             - containerPort: 8080
           readinessProbe:
